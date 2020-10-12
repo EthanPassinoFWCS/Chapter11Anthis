@@ -4,7 +4,7 @@ import unittest
 
 class EmployeeTestCase(unittest.TestCase):
     def setUp(self):
-        self.employee = Employee("Ethan", "Passino", 98000)
+        self.employee = Employee("John", "Smith", 98000)
 
     def test_give_default_raise(self):
         self.employee.give_raise()
